@@ -1,0 +1,4 @@
+
+Jlex: java -cp jlex.jar JLex.Main alex.l
+ 
+JavaCUP: java -cp cup.jar java_cup.Main -parser AnalizadorSintacticoTiny -symbols ClaseSimbolos  -nopositions Tiny.cup

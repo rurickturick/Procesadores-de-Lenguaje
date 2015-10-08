@@ -1,0 +1,53 @@
+options  {
+  STATIC=false;
+}  
+PARSER_BEGIN(AnalizadorSintacticoTiny)
+package asint;
+
+public class AnalizadorSintacticoTiny {}
+PARSER_END(AnalizadorSintacticoTiny)
+  TOKEN: {<INT : "int">}
+  TOKEN: {<BOOL :"bool">}
+  TOKEN: {<AND : "and">}
+  TOKEN: {<OR :"or">}
+  TOKEN: {<NOT :"not">}
+  TOKEN: {<TRUE :"true">}
+  TOKEN: {<FALSE :"false">}
+  TOKEN:{<#letra:["a"-"z","A"-"Z"]>}
+  TOKEN:{<#digitoPositivo:["1"-"9"]>}
+  TOKEN:{<#digito:<digitoPositivo>|"0">} 
+  TOKEN:{<#parteEntera:<digitoPositivo> (<digito>)*>} 
+  SKIP:{<["\t"," ","\r","\b","\n"]>}  
+  SKIP:{<"#"(~["\n"])*>} 
+  TOKEN: {<seccion:"&&">}
+  TOKEN: {<subrayado:"_">}
+  TOKEN:{<identificador:<letra>(<letra>|<digito>)*>}
+  TOKEN:{<numeroEntero: (["+","-"])? <parteEntera> | "0" >}
+ 
+
+ 
+ 
+  
+  void Programa()       : {} {Declaraciones() <seccion> Instrucciones() <EOF>} 
+  void Declaraciones()  : {} {Declaracion() ReDeclaraciones()}
+  void ReDeclaraciones()  : {} {";" Declaracion() ReDeclaraciones() | {}}
+  void Declaracion()    : {} {Tipo() <identificador> }
+  void Tipo()           : {} {<INT> | <BOOL>}
+  void Instrucciones()  : {} {Instruccion() ReInstrucciones()}
+  void ReInstrucciones(): {} {";" Instruccion() ReInstrucciones() | {}}
+  void Instruccion()    : {} {<identificador> "=" Expresion()}
+  void Expresion()      : {} {E1() RE0()}
+  void RE0()            : {} {OP0() E1() | {} }
+  void E1()             : {} {E2() RE1() }
+  void RE1()  			: {} {OP1() E2() RE1() | {} }
+  void E2()   			: {} {E3() RE2()}
+  void RE2()  			: {} {OP2() E3() | {}}
+  void E3()   			: {} {OP3() E3() | E4()}
+  void E4()   			: {} {<numeroEntero> | <identificador> | "(" Expresion() ")" | <TRUE> | <FALSE>}
+  void OP0()  			: {} {"<="|">="|"<"|">"|"=="|"!="}
+  void OP1()  			: {} {"+" | "-" | <OR>}
+  void OP2()  			: {} {"*" | "/" | <AND>}
+  void OP3 () 			: {} {"-"| <NOT>}
+
+
+  

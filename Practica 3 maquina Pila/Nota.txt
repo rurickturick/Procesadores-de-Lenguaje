@@ -1,0 +1,3 @@
+En la clase Parser para leer el archivo de texto de entrada, usamos un switch() con un String, esto sólo funciona a partir de JRE JavaSE-1.7,
+en versiones anteriores el switch() solo lo soportan tipos enteros y enumerados, por eso, si al cargar la práctica da error ahí, es por que se esta usando un JRE
+anterior a la versión que soporta esta utilidad.

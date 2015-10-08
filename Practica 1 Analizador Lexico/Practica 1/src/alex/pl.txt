@@ -1,0 +1,6 @@
+int pe_so
+bool pesado; 
+&&
+peso = (9 * 2) / -2;
+pesado = (peso > 10) or (peso / 2 <= 4);
+pesado = false and true

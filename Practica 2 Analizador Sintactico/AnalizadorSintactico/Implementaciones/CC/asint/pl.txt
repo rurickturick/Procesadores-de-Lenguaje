@@ -1,0 +1,7 @@
+int peso;
+bool pesado;
+bool prueba
+&& 
+peso = (45 * 12) / 2;
+pesado = (peso > 10) and (peso / 2 <= 4);
+prueba = not (not false)

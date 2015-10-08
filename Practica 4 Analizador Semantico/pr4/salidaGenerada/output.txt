@@ -1,0 +1,666 @@
+Apila(14)//--------------Generacion Inicio del Programa
+Desapila_dir(0)
+Ir_a(666)
+Apila_dir(0)//----------Inicio del Prologo
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(3)
+Suma
+Desapila_dir(0)//--------Fin del Prologo
+Apila_dir(0)//----------Inicio del Prologo
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(3)
+Suma
+Desapila_dir(0)//--------Fin del Prologo
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Lee
+Apila(0)
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(1)
+Neg
+Igual
+Desapila_ind
+Apila_dir(0)//------------Inicio del Epilogo
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind//------------------Fin del Epilogo
+Apila_dir(0)//----------Inicio del Prologo
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(3)
+Suma
+Desapila_dir(0)//--------Fin del Prologo
+Apila_dir(0)//----------Inicio del Prologo
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(2)
+Suma
+Desapila_dir(0)//--------Fin del Prologo
+Reserva(0)
+Desapila_ind
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Suma
+Apila(0)
+Apila_ind
+Desapila_ind
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Suma
+Apila(0)
+Apila_ind
+Desapila_ind
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Suma
+Apila(0)
+Apila_ind
+Desapila_ind
+Apila_dir(0)//------------Inicio del Epilogo
+Apila(2)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind//------------------Fin del Epilogo
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(0)
+Apila_ind
+Igual
+Ir_f(137)
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(131)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila(0)
+Apila_ind
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Suma
+Apila_ind
+Menor
+Ir_f(167)
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Suma
+Desapila_ind
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(161)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila(0)
+Apila_ind
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Suma
+Apila_ind
+Mayor
+Ir_f(197)
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Suma
+Desapila_ind
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(191)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila_dir(0)//------------Inicio del Epilogo
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind//------------------Fin del Epilogo
+Apila(0)
+Apila(false)
+Desapila_ind
+Apila_ind
+Apila(0)
+No
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila(0)
+Desapila_ind
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(226)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila_ind
+Apila(0)
+No
+Ir_f(252)
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila_dir(1)
+Apila(0)
+Suma
+Apila_ind
+Desapila_ind
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(246)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Ir_v(214)
+Apila_dir(0)//------------Inicio del Epilogo
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind//------------------Fin del Epilogo
+Apila_dir(0)//----------Inicio del Prologo
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(3)
+Suma
+Desapila_dir(0)//--------Fin del Prologo
+Apila_dir(0)//----------Inicio del Prologo
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(2)
+Suma
+Desapila_dir(0)//--------Fin del Prologo
+Apila(0)
+Apila_ind
+Apila(10)
+Menor
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Apila_ind
+Distinto
+Y
+Ir_f(357)
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila_dir(2)
+Apila(0)
+Suma
+Apila(0)
+Suma
+Clona(0)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(312)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila(0)
+Apila_ind
+Apila(10)
+Menor
+Ir_f(338)
+Apila(6)
+Apila(0)
+Suma
+Apila_dir(2)
+Apila(0)
+Suma
+Apila(0)
+Suma
+Apila_ind
+Desapila_ind
+Apila(0)
+Apila(0)
+Apila_ind
+Apila(1)
+Suma
+Desapila_ind
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila_dir(2)
+Apila(0)
+Suma
+Apila(0)
+Suma
+Clona(0)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(351)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila_dir(0)//------------Inicio del Epilogo
+Apila(2)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind//------------------Fin del Epilogo
+Apila(0)
+Apila(0)
+Desapila_ind
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila_dir(1)
+Apila(0)
+Suma
+Clona(0)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(385)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila(0)
+Apila_ind
+Apila(10)
+Menor
+Ir_f(401)
+Apila(6)
+Apila(0)
+Suma
+Apila(1)
+Neg
+Desapila_ind
+Apila_dir(0)//------------Inicio del Epilogo
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind//------------------Fin del Epilogo
+Apila_dir(0)//----------Inicio del Prologo
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(3)
+Suma
+Desapila_dir(0)//--------Fin del Prologo
+Apila_dir(0)//----------Inicio del Prologo
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(3)
+Suma
+Desapila_dir(0)//--------Fin del Prologo
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Apila_ind
+Distinto
+Ir_f(483)
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila_dir(2)
+Apila(0)
+Suma
+Apila(0)
+Suma
+Clona(0)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(455)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila_dir(2)
+Apila(0)
+Suma
+Apila(0)
+Suma
+Clona(0)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(473)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila_dir(2)
+Apila(0)
+Suma
+Libera(0)
+Apila_dir(0)//------------Inicio del Epilogo
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind//------------------Fin del Epilogo
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila_dir(1)
+Apila(0)
+Suma
+Apila_ind
+Clona(0)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(509)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila_dir(1)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Apila_ind
+Desapila_ind
+Apila_dir(0)//------------Inicio del Epilogo
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind//------------------Fin del Epilogo
+Apila_dir(0)//----------Inicio del Prologo
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(12)
+Suma
+Desapila_dir(0)//--------Fin del Prologo
+Apila(0)
+Apila(0)
+Desapila_ind
+Apila(0)
+Apila_dir(1)
+Apila(0)
+Suma
+Apila(0)
+Suma
+Apila_ind
+Apila(1)
+Neg
+Igual
+Desapila_ind
+Apila_ind
+Apila(0)
+No
+Apila_dir(1)
+Apila(0)
+Suma
+Apila(0)
+Suma
+Escribe
+Apila(0)
+Apila(0)
+Apila_ind
+Apila(1)
+Suma
+Desapila_ind
+Apila(0)
+Apila(0)
+Apila_ind
+Apila(10)
+Igual
+Desapila_ind
+Apila_ind
+Apila(0)
+No
+Ir_f(595)
+Apila(0)
+Apila_dir(1)
+Apila(0)
+Suma
+Apila(0)
+Suma
+Apila_ind
+Apila(1)
+Neg
+Igual
+Desapila_ind
+Ir_v(559)
+Apila_dir(0)//------------Inicio del Epilogo
+Apila(12)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind//------------------Fin del Epilogo
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila(16)
+Desapila_ind
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(619)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila(16)
+Clona(0)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(633)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila(16)
+Desapila_ind
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(647)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada
+Apila_dir(0)//------------Inicio de Prellamada
+Apila(3)
+Suma
+Dup
+Apila(0)
+Suma
+Apila(6)
+Clona(0)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(661)
+Desapila_ind
+Ir_a(0)//---------------- Fin de Prellamada

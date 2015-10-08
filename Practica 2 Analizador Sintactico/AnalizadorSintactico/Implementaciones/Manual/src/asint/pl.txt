@@ -1,0 +1,9 @@
+int peso;
+bool pesado;
+int hphphp
+&&
+peso = (peso * 2) == (peso / 2 <= 4);
+peso = -5;
+peso = (peso and peso) and (peso or peso);
+peso = +5;
+peso = peso and peso

@@ -1,0 +1,42 @@
+package asint;
+
+import java_cup.runtime.*;
+import alex.AnalizadorLexicoTiny;
+import alex.UnidadLexica;
+import errors.GestionErroresTiny;
+
+scan with {: return getScanner().next_token(); :};
+parser code {: 
+   private GestionErroresTiny errores;
+   public void syntax_error(Symbol unidadLexica) {
+     errores.errorSintactico((UnidadLexica)unidadLexica);
+   }
+:};
+init with {: 
+   errores = new GestionErroresTiny();
+   AnalizadorLexicoTiny alex = (AnalizadorLexicoTiny)getScanner();
+   alex.fijaGestionErrores(errores);
+:};
+
+    terminal    IDEN, ENT, PAP, PCIERRE, IGUALASIG, PYC,  MAS, MENOS, POR, DIV, TRUE, FALSE, MAYORIGUAL,MENORIGUAL,DISTINTO,IGUALCOMP,MAYOR,MENOR,BOOL,INT,SECCION,AND,OR,NOT;
+    nonterminal Programa,Declaracion,Tipo,Declaraciones,Instruccion,Instrucciones,op0,op1,op2,op3,Expresion,E1,E2,E3,E4;
+   	
+    Programa ::= Declaraciones SECCION Instrucciones ;
+    Declaraciones ::= Declaraciones PYC Declaracion | Declaracion ;
+    Declaracion ::= Tipo IDEN ;
+    Tipo ::= INT | BOOL ;
+    Instrucciones ::= Instrucciones PYC Instruccion | Instruccion ;
+    Instruccion ::= IDEN IGUALASIG Expresion;
+    Expresion ::= E1 op0 E1 | E1 ;
+    E1 ::= E1 op1 E2 | E2 ;
+    E2 ::= E2 op2 E3 | E3 ;
+    E3 ::= op3 E3 | E4 ;
+    E4 ::= ENT | IDEN | PAP Expresion PCIERRE | TRUE | FALSE;
+    op0 ::= MENOR | MAYOR | MENORIGUAL | MAYORIGUAL | DISTINTO | IGUALCOMP ;
+    op1 ::= MAS | MENOS | OR;
+    op2 ::= POR | DIV | AND;
+    op3 ::= MENOS | NOT; 
+    
+    
+
+

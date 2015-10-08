@@ -1,0 +1,775 @@
+Apila(1)
+Apila(10)  
+Mul
+Apila(1)                              
+Suma
+Apila(3)
+Suma
+Desapila_dir(0)
+Apila(4)
+Desapila_dir(1)
+Apila(4)
+Desapila_dir(2)
+Apila(4)
+Desapila_dir(3)
+Apila(14)
+Apila(null)
+Desapila_ind
+Apila(0)//Inicializo los valores de Secuencia 0 al 9 a cero.
+Apila(0)
+Apila(0)
+Apila(0)
+Apila(0)
+Apila(0)
+Apila(0)
+Apila(0)
+Apila(0)
+Apila(0)
+Desapila_dir(4)
+Desapila_dir(5)
+Desapila_dir(6)
+Desapila_dir(7)
+Desapila_dir(8)
+Desapila_dir(9)
+Desapila_dir(10)
+Desapila_dir(11)
+Desapila_dir(12)
+Desapila_dir(13)
+Ir_a(704)  // comienzo del cuerpo del programa
+Apila_dir(0) // ----------------------------------------------PrólogoLeeValores
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(5)
+Suma
+Desapila_dir(0)
+Apila_dir(1) //------Cuerpo de LeeValores
+Apila(1)
+Suma
+Apila(false)
+Desapila_ind
+Apila_dir(0)//----------------------------------Prellamada LeerValor valor dentro de LeeValores
+Apila(3) 
+Suma
+Dup
+Apila_dir(1)
+Apila(2)
+Suma
+Desapila_ind
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(67) //--------dirección a la que vuelvo
+Desapila_ind
+Ir_a(108) // -------prólogo LeeValor
+Apila_dir(1)//------instruccion if not fin
+Apila(1)
+Suma
+Apila_ind
+No
+Ir_f(88) // --------condición while
+Apila_dir(0)//-----------------------------------------Prellamada a GuardaValor dentro de LeeValores.------------------------
+Apila(3) 
+Suma
+Dup
+Apila_dir(1)
+Apila(0)
+Suma
+Apila_ind
+Desapila_ind
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(88) //---------dirección a la que vuelvo a la condicion del do while.
+Desapila_ind
+Ir_a(149) // --------prólogo GuardaValor
+Apila_dir(1)//-------CONDICION DO WHILE 
+Apila(1)
+Suma
+Apila_ind
+No
+Ir_v(53) // ---------Prellamada a Leevalor 
+Apila_dir(0) ---------------------------------------------------------Epílogo de LeeValores------------------------------------
+Apila(5)  
+Resta
+Desapila_dir(0)
+Apila_dir(0) 
+Apila(2) 
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila_ind
+Ir_ind
+Apila_dir(0)//--------------------------------------------------------Prólogo LeeValor -------------------------------------------
+Apila(2)
+Suma
+Apila_dir(2)
+Desapila_ind
+Desapila_dir(2)
+Apila_dir(0) 
+Apila(3)
+Suma
+Desapila_dir(0)
+Apila_dir(2) ------------  Cuerpo LeeValor 
+Apila(0)
+Suma
+Apila_ind
+Lee
+Desapila_ind
+Apila_dir(1)
+Apila(1)
+Suma
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(-1)
+Igual
+Desapila_ind
+Apila_dir(0) ---------------------------------------------- Epílogo LeeValor---------------------------------------------------------
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(2)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind
+Apila_dir(0)----------------------------------------------Prólogo GuardaValor------------------------------------------------------------
+Apila(2)
+Suma
+Apila_dir(2)
+Desapila_ind
+Desapila_dir(2)
+Apila_dir(0)
+Apila(3)
+Suma
+Desapila_dir(0)
+Apila_dir(2)-----------------------------------------------Cuerpo GuardaValor--------------------------------------------------------
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(null)//---------------ARBOL == null
+Igual
+Ir_f(177) // ---------------ir al 1 º else if
+Apila_dir(0)//---------------------------Prellamada de AlmacenaValor
+Apila(3)
+Suma
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(243)  //--------------- dirección a la que vuelvo(Epilogo de GuardaValor)
+Desapila_ind
+Ir_a(257) //----------------- prologo de AlmacenaValor 
+Ir_a(243)//---------------------epilogo guardaValor 
+Apila_dir(1)//---------------primer else if valor < arbol->.valor then 
+Apila(2)
+Suma
+Apila_ind
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(0)
+Suma
+Apila_ind
+Menor
+Ir_f(210)//-----------------2 si es falso tengo que ir else if (valor >árbol->.valor)
+Apila_dir(0) 
+Apila(3) 
+Suma
+Dup
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(1)
+Suma
+Desapila_ind
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(209)  // --------------dirección a la que vuelvo 
+Desapila_ind
+Ir_a(149) //-----------------prologo de GuardaValor                                           
+Ir_a(243) //-----------------epilogo de guardavalor                                          
+Apila_dir(1)//----------------------------- else if valor > arbol->.valor then 
+Apila(2)
+Suma
+Apila_ind
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(0)
+Suma
+Apila_ind
+Mayor
+Ir_f(243)//--------------------------------Iria al Epilogo de GuardaValor  
+Apila_dir(0) 
+Apila(3) 
+Suma
+Dup
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(2)
+Suma
+Desapila_ind
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(243)  //----------------------- dirección a la que vuelvo ---> Epilogo de GuardaValor
+Desapila_ind
+Ir_a(149) //-------------------------prologo de GuardaValor                               
+Ir_a(243) //-------------------------epilogo de guardavalor                               
+Apila_dir(0) -------------------------------------------------- Epílogo de GuardaValor---------------------------------------------------------
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0) 
+Apila(2) 
+Suma
+Apila_ind
+Desapila_dir(2)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila_ind
+Ir_ind
+Apila_dir(0)//---------------------------------------------------Prólogo AlmacenaValor----------------------------------------------------------
+Apila(2) 
+Suma
+Apila_dir(3)
+Desapila_ind
+Desapila_dir(3)
+Apila_dir(0) 
+Apila(2)
+Suma
+Desapila_dir(0)
+Apila_dir(2)//---------------------------------------------------Cuerpo de AlmacenaValor-------------------------------------------------------
+Apila(0)
+Suma
+Apila_ind
+Reserva(3)
+Desapila_ind//------Memoria 14 tiene 50
+Apila_dir(2)//------instruccion arbol->valor = valor
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(0)
+Suma
+Apila_dir(1)
+Apila(2)
+Suma
+Apila_ind
+Desapila_ind
+Apila_dir(2)//----------Arbol->izq = null
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(1) //------------ pos 2 del struc
+Suma
+Apila(null)
+Desapila_ind
+Apila_dir(2)//----------Arbol->der=null;
+Apila(0)
+Suma
+Apila_ind
+Apila_ind
+Apila(2)
+Suma
+Apila(null)
+Desapila_ind
+Apila_dir(0) -------------------------------------------------- Epílogo de AlmacenaValor---------------------------------------------
+Apila(2)
+Resta
+Desapila_dir(0)
+Apila_dir(0) 
+Apila(2) 
+Suma
+Apila_ind
+Desapila_dir(3)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila_ind
+Ir_ind
+Apila_dir(0)----------------------------------------------------------Prólogo Construye SecOrdenada -----------------------------------
+Apila(2) 
+Suma
+Apila_dir(1) 
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0) 
+Apila(4)
+Suma
+Desapila_dir(0)
+Apila_dir(1)---------------------------------------------------------- Cuerpo Construye SecOrdenada--------------------------------------
+Apila(1)//---------------Instruccion numElem=0;
+Suma
+Apila(0)
+Desapila_ind
+Apila_dir(0)//----------Prellamada de AlmacenaSecuencia arbol
+Apila(3) 
+Suma
+Dup
+Apila_dir(1) 
+Apila(0) 
+Suma
+Clona(1)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(346)//-----------dirección a la que vuelvo  que seria if numElem < 10.
+Desapila_ind
+Ir_a(381) // ----------prólogo Almacena EnSecuencia
+Apila_dir(1)//---------Instruccion if numElem < 10.
+Apila(1)
+Suma
+Apila_ind
+Apila(10)
+Menor
+Ir_f(367) //----------Ir a epílogo Contruye Sec Ordenada
+Apila(0)//------------Instruccion secuencia[numElem] = -1.
+Apila(3)
+Suma
+Apila(1)
+Suma//----------------posicion de secuencia
+Apila_dir(1)
+Apila(1)
+Suma
+Apila_ind//-----------obtengo NumElem
+Apila(1)
+Mul
+Suma//---------------secuencia[numElem]
+Apila(-1)
+Desapila_ind
+Apila_dir(0) -------------------------------------------------Epílogo de  Construye SecOrdenada------------------------------------------
+Apila(4)
+Resta
+Desapila_dir(0) 
+Apila_dir(0) 
+Apila(2) 
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila_ind
+Ir_ind
+Apila_dir(0) ------------------------------------------------------Prólogo AlmacenaEn Secuencia------------------------------------------
+Apila(2) 
+Suma
+Apila_dir(2)
+Desapila_ind
+Desapila_dir(2)
+Apila_dir(0) 
+Apila(3)
+Suma
+Desapila_dir(0) 
+Apila_dir(1)-------------------------------------------------------Cuerpo AlmacenaEn Secuencia---------------------------------------------
+Apila(1)// ------------- if concatenado con 378 numElem<10 && arbol != NULL
+Suma
+Apila_ind
+Apila(10)
+Menor
+Apila_dir(2)//-----------arbol != null
+Apila(0)
+Suma
+Apila_ind
+Apila(null)
+Distinto
+Y
+Ir_f(474)  //------------Epílogo de AlmacenaEn Secuencia
+Apila_dir(0)//-----------------------------Prellamada AlmacenaEnSecuencia arbol izq
+Apila(3) 
+Suma
+Dup
+Apila_dir(2) 
+Apila(0) 
+Suma
+Apila_ind
+Apila(1)
+Suma
+Clona(1)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(422)// -------------dirección a la que vuelvo seria al if numElem < 10
+Desapila_ind
+Ir_a(381)//---------------prologo de AlmacenaEnSecuencia
+Apila_dir(1)//------------Instruccion if numElemen < 10.
+Apila(1)
+Suma
+Apila_ind
+Apila(10)
+Menor
+Ir_f(457) // -------------tengo que ir a Prellama a AlmacenaEnSecuencia arbol derecha.
+Apila(0)//----------------instruccion secuencia[numElem] = arbol->.valor
+Apila(3)
+Suma
+Apila(1)
+Suma//--------------------Obtengo la posicion del comienzo de secuencia.
+Apila_dir(1)
+Apila(1)
+Suma
+Apila_ind//---------------obtengo el valor de numElemen.
+Apila(1)
+Mul
+Suma//--------------------Secuencia[numElem]
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Suma
+Apila_ind//---------------arbol->.valor
+Desapila_ind
+Apila_dir(1)//------------NumElem = numElem+1
+Apila(1)
+Suma
+Dup
+Apila_ind
+Apila(1)
+Suma
+Desapila_ind
+Apila_dir(0) //-----------Prellama a AlmacenaEnSecuencia arbol derecha.
+Apila(3) 
+Suma
+Dup
+Apila_dir(2) 
+Apila(0) 
+Suma
+Apila_ind
+Apila(2)
+Suma
+Clona(1)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(474)//-------------EpilogoAlmacenaSecuencia.
+Desapila_ind
+Ir_a(381) //--------------prologo de AlmacenaEnSecuencia
+Apila_dir(0) ---------------------------------------------Epílogo de  AlmacenaEn Secuencia-------------------------------------------
+Apila(3)
+Resta
+Desapila_dir(0) 
+Apila_dir(0) 
+Apila(2) 
+Suma
+Apila_ind
+Desapila_dir(2)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila_ind
+Ir_ind
+Apila_dir(0)//---------------------------------------------------PrologoLibera-------------------------------------------------------
+Apila(2)
+Suma
+Apila_dir(2)
+Desapila_ind
+Desapila_dir(2)
+Apila_dir(0)
+Apila(3)// --------seria valor hijoIzq HijoDer
+Suma
+Desapila_dir(0)
+Apila_dir(2)//-------------------------------------------------CuerpoDeLibera----------------------------------------------------
+Apila(0)//---------Instruccion   if Arbol != null
+Suma
+Apila_ind//--------Obtengo el  valor
+Apila(null)
+Distinto
+Ir_f(544)//-------- si no cumple la condicion iria al EpilogoLibera
+Apila_dir(0)//------Prellamada LiberaHijoIzq
+Apila(3)
+Suma
+Dup
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(1)
+Suma
+Clona(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(522)//-------Retorno a prellamada LiberaHijoDer
+Desapila_ind
+Ir_a(488)//---------voy al Prologo Libera
+Apila_dir(0)//------Prellamada LiberaHijoDer
+Apila(3)
+Suma
+Dup
+Apila_dir(2)
+Apila(0)
+Suma
+Apila_ind
+Apila(2)
+Suma
+Clona(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(539)//-------Retorno a DeleteArbol
+Desapila_ind
+Ir_a(488)//--------voy al PrologoLibera
+Apila_dir(2)//-----Instruccion Libera arbol.
+Apila(0)
+Suma
+Apila_ind
+Libera(3)
+Apila_dir(0)//---------------------------------------------------------Epilogo Libera--------------------------------------------
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(2)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind
+Apila_dir(0)//----------------------------------------------------------PrologoLiberaArbol---------------------------------------
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(3)
+Suma
+Desapila_dir(0)
+Apila_dir(0)//--------------------------------------------------------------Cuerpo LiberaArbol -------------------------------PrellamadaLibera.
+Apila(3)
+Suma
+Dup
+Apila_dir(1)
+Apila(0)
+Suma
+Clona(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(582)//-----------retorno a instruccion arbol=null
+Desapila_ind
+Ir_a(488)//------------voy al PrologoLibera
+Apila_dir(1)//---------Instruccion arbol=null
+Apila(0)
+Suma
+Apila(null)
+Desapila_ind
+Apila_dir(0)//-----------------------------------------------------------------EpilogoLiberaArbol--------------------------------------------------
+Apila(3)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind
+Apila_dir(0)//---------------------------------------------------------------- Prologo muestraSecuencia--------------------------------------------
+Apila(2)
+Suma
+Apila_dir(1)
+Desapila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(14)
+Suma
+Desapila_dir(0)
+Apila_dir(1)//----------------------------------------------------------------Cuerpo MuestraSecuencia-------------------------------------------------
+Apila(10)//---------Instruccion i=0;
+Suma
+Apila(0)
+Desapila_ind
+Apila_dir(1)//------fin = (secuencia[0] == -1);
+Apila(11)
+Suma
+Apila_dir(1)
+Apila(0)
+Suma
+Apila(0)
+Suma
+Apila_ind
+Apila(0)
+Apila(1)
+Resta
+Igual
+Desapila_ind
+Apila_dir(1)//----- whileCondition Aqui empiezo el while !  while not fin
+Apila(11)
+Suma
+Apila_ind
+No
+Ir_f(690)//--------voy al epilogo MuestraSecuencia
+Apila_dir(1)//-----instrucción write secuencia[i];
+Apila(0)
+Suma
+Apila_dir(1)
+Apila(10)
+Suma
+Apila_ind
+Suma
+Apila_ind
+Escribe
+Apila_dir(1)//-----Instruccion i=i+1;
+Apila(10)
+Suma
+Apila_dir(1)
+Apila(10)
+Suma
+Apila_ind
+Apila(1)
+Suma
+Desapila_ind
+Apila_dir(1)//-----instruccion fin = (i ==10);
+Apila(11)
+Suma
+Apila_dir(1)
+Apila(10)
+Suma
+Apila_ind
+Apila(10)
+Igual
+Desapila_ind
+Apila_dir(1)
+Apila(11)
+Suma
+Apila_ind
+No
+Ir_f(630)//-------ir al bucle while
+Apila_dir(1)//-----Instruccion (fin=secuencia[i]==-1)
+Apila(11)
+Suma
+Apila_dir(1)
+Apila(0)
+Suma
+Apila_dir(1)
+Apila(10)
+Suma
+Apila_ind
+Suma
+Apila_ind
+Apila(0)
+Apila(1)
+Resta
+Igual
+Desapila_ind
+Ir_a(630)//Ir al bucle while.
+Apila_dir(0)//-----------------------------------------------------Epilogo MuestraSecuencia-----------------------------------------------------
+Apila(14)
+Resta
+Desapila_dir(0)
+Apila_dir(0)
+Apila(2)
+Suma
+Apila_ind
+Desapila_dir(1)
+Apila_dir(0)
+Apila(1)
+Suma
+Apila_ind
+Ir_ind
+Apila_dir(0) ---------------------------------Cuerpo del programaprincipal ---llamada LeeValores arbol;------------------------------------------
+Apila(3) 
+Suma
+Dup
+Apila(0) 
+Apila(3)
+Apila(10)
+Apila(1)
+Mul
+Suma
+Apila(1)
+Suma
+Suma
+Desapila_ind
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(724)//---------dirección a la que vuelvo  -> a la llamada siguiente.
+Desapila_ind
+Ir_a(38)// ---------- prologo de leevalores.                      
+Apila_dir(0)//-------------------------------------------Llamada a  ConstruyeSecOrdenada arbol;
+Apila(3) 
+Suma
+Dup
+Apila(0) 
+Apila(3) 
+Apila(10)
+Apila(1)
+Mul
+Suma
+Apila(1)
+Suma
+Suma
+Clona(1)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(744)//dirección a la que vuelvo  
+Desapila_ind
+Ir_a(317)//------------prólogo de ConstruyeSecOrdenada
+Apila_dir(0)//--------------------------------------------------Prellamada LiberaArbol
+Apila(3)
+Suma
+Dup
+Apila_dir(0)
+Apila(0)
+Suma
+Apila_ind
+Desapila_ind
+Apila_dir(0)
+Apila(1)
+Suma
+Apila(759)//--------direccion de retorno al finalizar LiberaArbol.
+Desapila_ind
+Ir_a(558)//voy al PrologoLiberaArbol
+Apila_dir(0)//-------------------------------------------------PreLamada a MuestraSecuencia
+Apila(3) 
+Suma
+Dup
+Apila(0) 
+Apila(3)
+Apila(1)
+Suma
+Suma
+Clona(10)
+Apila_dir(0) 
+Apila(1) 
+Suma
+Apila(775)//------dirección a la que vuelvo  
+Desapila_ind
+Ir_a(601)//-------prólogo de Muestra Secuencia
